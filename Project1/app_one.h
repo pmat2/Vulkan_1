@@ -14,5 +14,6 @@ public:
 
 private:
 	LveWindow lveWindow{ WIDTH, HEIGHT, "Hello Vulkan!" };
+	std::string test;
 };
 }
