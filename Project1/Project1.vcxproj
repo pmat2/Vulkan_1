@@ -157,10 +157,12 @@
   <ItemGroup>
     <ClCompile Include="src\App_one.cpp" />
     <ClCompile Include="src\LveWindow.cpp" />
+    <ClCompile Include="src\lve_pipelane.cpp" />
     <ClCompile Include="src\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\app_one.h" />
+    <ClInclude Include="src\lve_pipeline.h" />
     <ClInclude Include="src\lve_window.h" />
   </ItemGroup>
   <ItemGroup>

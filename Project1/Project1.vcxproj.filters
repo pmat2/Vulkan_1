@@ -24,12 +24,18 @@
     <ClCompile Include="src\App_one.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\lve_pipelane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\lve_window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\app_one.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lve_pipeline.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
