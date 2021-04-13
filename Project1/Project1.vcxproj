@@ -157,7 +157,7 @@
   <ItemGroup>
     <ClCompile Include="src\App_one.cpp" />
     <ClCompile Include="src\LveWindow.cpp" />
-    <ClCompile Include="src\lve_pipelane.cpp" />
+    <ClCompile Include="src\lve_pipeline.cpp" />
     <ClCompile Include="src\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
