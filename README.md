@@ -23,3 +23,4 @@ First Vulkan project
     - glfw3.lib
 
 - Set language to C17
+- Compile in 64bit
