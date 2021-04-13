@@ -155,16 +155,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="App_one.cpp" />
-    <ClCompile Include="LveWindow.cpp" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="src\App_one.cpp" />
+    <ClCompile Include="src\LveWindow.cpp" />
+    <ClCompile Include="src\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="app_one.h" />
-    <ClInclude Include="lve_window.h" />
+    <ClInclude Include="src\app_one.h" />
+    <ClInclude Include="src\lve_window.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
+    <None Include="src\compile.bat" />
+    <None Include="src\shaders\simple_shader.frag" />
+    <None Include="src\shaders\simple_shader.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

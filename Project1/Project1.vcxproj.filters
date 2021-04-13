@@ -15,25 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="src\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LveWindow.cpp">
+    <ClCompile Include="src\LveWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="App_one.cpp">
+    <ClCompile Include="src\App_one.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="lve_window.h">
+    <ClInclude Include="src\lve_window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="app_one.h">
+    <ClInclude Include="src\app_one.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
+    <None Include="src\shaders\simple_shader.vert" />
+    <None Include="src\shaders\simple_shader.frag" />
+    <None Include="src\compile.bat">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
